@@ -135,9 +135,10 @@ addresses = ['Second', 'Third', 'First', 'Fourth','Park','Main','Oak', 'Pine','M
 conn = sqlite3.connect('data.db')
 cursor = conn.cursor()
 
-
+print('Number of customers:')
+input1 = input()
 #Change the range to get that many users in the database.
-for i in range(100):
+for i in range(input1):
     firstname = Names[r.randint(0,49)]
     lastname = lastNames[r.randint(0,49)]
     email = firstname + lastname + "@email.com"

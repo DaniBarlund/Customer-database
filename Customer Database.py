@@ -292,7 +292,7 @@ conn = sqlite3.connect('data.db')
 cursor = conn.cursor()
 
 #Create table
-'''
+#'''
 cursor.execute("""CREATE TABLE data(
     first_name text,
     last_name text,
@@ -302,9 +302,9 @@ cursor.execute("""CREATE TABLE data(
     membership text,
     country text,
     address text)""")
-'''
-#Fill treeview with database information
 
+#Fill treeview with database information
+#'''
 conn.commit()
 
 

@@ -4,7 +4,7 @@
 
 Customer database is a program to display and make changes to a database. It has functions such as submit, update, delete and search.
 
-![Empty database](https://github.com/DaniBarlund/Customer-database/photos/customer-database-empty.png)
+![Empty database]([https://github.com/DaniBarlund/Customer-database/photos/customer-database-empty.png](https://github.com/DaniBarlund/Customer-database/blob/main/photos/customer-database-empty.png)
   
 ## HOW TO USE?
 

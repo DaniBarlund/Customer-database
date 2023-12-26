@@ -1,4 +1,4 @@
-WHAT IT DOES?
+## WHAT IT DOES?
   Customer database is a program to display and make changes to a database. It has functions such as submit, update, delete and search.
   
 HOW TO USE?

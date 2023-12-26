@@ -136,7 +136,7 @@ conn = sqlite3.connect('data.db')
 cursor = conn.cursor()
 
 print('Number of customers:')
-input1 = input()
+input1 = int(input())
 #Change the range to get that many users in the database.
 for i in range(input1):
     firstname = Names[r.randint(0,49)]

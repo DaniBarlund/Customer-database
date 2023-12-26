@@ -291,20 +291,6 @@ def changeText():
 conn = sqlite3.connect('data.db')
 cursor = conn.cursor()
 
-#Create table
-#'''
-cursor.execute("""CREATE TABLE data(
-    first_name text,
-    last_name text,
-    email text,
-    id integer,
-    sign_up_date text,
-    membership text,
-    country text,
-    address text)""")
-
-#Fill treeview with database information
-#'''
 conn.commit()
 
 
